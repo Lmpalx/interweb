@@ -8,21 +8,28 @@
 {% endblock %}
 
 {% block content %}
+<table>
+	 <thead>
+        <tr>
+            <th colspan="6">Server Modbus</th>
+        </tr>
+	</thead>
   {% for s in serv %}
-    <article class="s">
-      <header>
-        <div>
-          <h1>{{s['adresse']}}:{{s['port']}} with {{s['size']}} registers  </h1>
-          <div class="about">by {{ s['username'] }} on {{ s['created'].strftime('%Y-%m-%d') }}</div>
-        </div>
-        {% if g.user['id'] == s['author_id'] %}
-          <form action="{{ url_for('serv.delete', id=s['id']) }}" method="post">
-		  <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?');">
-        {% endif %}
-      </header>
-    </article>
-    {% if not loop.last %}
-      <hr>
-    {% endif %}
+
+    <tbody>
+        <tr>
+            <td>{{s['adresse']}}</td>
+            <td>{{s['port']}}</td>
+			<td>{{s['size']}} registers </td>
+			<td>{{s['username'] }}</td>
+			<td>{{s['created'].strftime('%Y-%m-%d')}}</td>
+			<td><form action="{{ url_for('serv.delete', id=s['id']) }}" method="post">
+					<input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?');">
+				</form>
+			</td>
+			
+        </tr>
+    </tbody>
   {% endfor %}
+  </table>
 {% endblock %}
