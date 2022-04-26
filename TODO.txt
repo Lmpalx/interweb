@@ -1,0 +1,3 @@
+creation ip interface autre que os.cmd (sinon voir faire script executable sans sudo)
+suppression des threads (stocker thread id in db ??)
+permission port 502  

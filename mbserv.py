@@ -21,6 +21,11 @@ FORMAT = ('%(asctime)-15s %(threadName)-15s'
 logging.basicConfig(format=FORMAT,filename='mbserv.log')
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
+# --------------------------------------------------------------------------- # 
+# configure the service logging
+# --------------------------------------------------------------------------- # 
+from pymodbus.client.sync import ModbusTcpClient
+
 
 import sys
 import os
@@ -104,6 +109,15 @@ class Mbserv(threading.Thread):
         # ----------------------------------------------------------------------- #
         StartTcpServer(context, identity=identity, address=add)
     
+    def alive(self):
+        try:
+            client = ModbusTcpClient(self.ip,self.port)
+            assert client.connect()
+            self.running =True
+            return True
+        except:
+            self.running =False
+            return False
 
 
 

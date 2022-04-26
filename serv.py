@@ -5,9 +5,6 @@ from interweb.db import get_db
 from interweb.mbserv import Mbserv
 from . import const
 
-TH_SERV={}
-
-
 bp= Blueprint("serv",__name__)
 @bp.route("/")
 def index():
@@ -52,10 +49,11 @@ def create():
         if error is not None:
             flash(error)
         else:
-            TH_SERV[adress]= Mbserv(adress,const.INTERFACE,port,size)
-            TH_SERV[adress].start()
+            TH = Mbserv(adress,const.INTERFACE,port,size)
+            TH.start()
+            
 
-            if TH_SERV[adress].running:
+            if TH.alive():
                 db = get_db()
                 db.execute( "INSERT INTO serv (author_id, adresse, port, size) VALUES (?, ?, ?, ?)",(g.user["id"],adress,port,size))
                 db.commit()
@@ -84,7 +82,6 @@ def get_post(id, check_author=True):
 
 def delete(id):
     serv = get_post(id)
-    #TH_SERV[serv['adresse']].raise_exception()
     db = get_db()
     db.execute('DELETE FROM serv WHERE id = ?', (id,))
     db.commit()
