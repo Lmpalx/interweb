@@ -1,0 +1,103 @@
+2022-04-26 15:36:59,499 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:36:59] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:36:59,526 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:36:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:37:02,897 Thread-6        DEBUG    mbserv         :47       Demarrage du thread à l'adresse 192.168.2.1
+2022-04-26 15:37:02,898 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:02] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:37:02,907 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:02] "GET / HTTP/1.1" 200 -
+2022-04-26 15:37:02,926 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:37:41,745 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:37:41,781 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:37:44,015 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:44] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:37:44,032 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:37:47,344 Thread-6        DEBUG    mbserv         :47       Demarrage du thread à l'adresse ('192.168.2.1', '502')
+2022-04-26 15:37:47,345 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:47] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:37:47,353 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:47] "GET / HTTP/1.1" 200 -
+2022-04-26 15:37:47,373 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:37:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:39:27,340 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:39:27,367 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:39:29,894 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:39:29] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:39:29,926 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:39:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:39:33,342 Thread-6        DEBUG    mbserv         :47       Demarrage du thread à l'adresse ('192.168.2.1', '502')
+2022-04-26 15:39:33,342 Thread-6        DEBUG    mbserv         :52       echec thread à l'adresse ('192.168.2.1', '502')
+2022-04-26 15:39:33,343 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:39:33] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:39:33,352 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:39:33] "GET / HTTP/1.1" 200 -
+2022-04-26 15:39:33,373 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:39:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:41:26,955 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:41:26,983 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:41:28,979 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:41:28] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:41:29,013 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:41:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:41:32,998 Thread-6        DEBUG    mbserv         :47       Demarrage du thread à l'adresse ('192.168.2.1', '502')
+2022-04-26 15:41:32,998 Thread-6        DEBUG    mbserv         :52       echec thread à l'adresse ('192.168.2.1', '502')
+2022-04-26 15:41:33,006 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:41:33] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:41:33,014 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:41:33] "GET / HTTP/1.1" 200 -
+2022-04-26 15:41:33,035 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:41:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:42:46,376 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:42:46,402 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:42:48,200 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:48] "[32mPOST /15/delete HTTP/1.1[0m" 302 -
+2022-04-26 15:42:48,213 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:48] "GET / HTTP/1.1" 200 -
+2022-04-26 15:42:48,237 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:42:48,979 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:48] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:42:48,997 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:42:52,390 Thread-7        DEBUG    mbserv         :47       Demarrage du thread à l'adresse ('192.168.2.1', '502')
+2022-04-26 15:42:52,390 Thread-7        DEBUG    mbserv         :52       echec thread à l'adresse ('192.168.2.1', '502')
+2022-04-26 15:42:52,390 Thread-5        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:52] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:42:52,397 Thread-5        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:52] "GET / HTTP/1.1" 200 -
+2022-04-26 15:42:52,416 Thread-5        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:42:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:43:55,796 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:43:55,820 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:45:09,281 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:45:09,308 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:45:27,550 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:45:27,574 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:45:29,795 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:45:29] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:45:29,827 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:45:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:45:33,063 Thread-5        DEBUG    mbserv         :47       Demarrage du thread à l'adresse 192.168.2.1
+2022-04-26 15:45:33,064 Thread-5        DEBUG    mbserv         :52       echec thread à l'adresse 192.168.2.1
+2022-04-26 15:45:33,064 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:45:33] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:45:33,075 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:45:33] "GET / HTTP/1.1" 200 -
+2022-04-26 15:45:33,095 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:45:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:46:43,000 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:46:43,027 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:46:48,804 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:46:48] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:46:48,819 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:46:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:46:52,462 Thread-6        DEBUG    mbserv         :47       Demarrage du thread à l'adresse 192.168.2.1
+2022-04-26 15:46:52,462 Thread-6        DEBUG    payload        :125      [65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]
+2022-04-26 15:46:52,464 Thread-6        DEBUG    sync           :363      Modbus server stopped
+2022-04-26 15:46:52,464 Thread-6        DEBUG    mbserv         :52       echec thread à l'adresse 192.168.2.1
+2022-04-26 15:46:52,465 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:46:52] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:46:52,475 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:46:52] "GET / HTTP/1.1" 200 -
+2022-04-26 15:46:52,497 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:46:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:48:35,691 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/mbserv.py', reloading
+2022-04-26 15:48:35,717 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 15:48:37,701 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:48:37] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:48:37,729 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:48:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:48:40,860 Thread-6        DEBUG    mbserv         :47       Demarrage du thread à l'adresse 192.168.2.1
+2022-04-26 15:48:40,861 Thread-6        DEBUG    payload        :125      [65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]
+2022-04-26 15:48:40,863 Thread-6        DEBUG    sync           :363      Modbus server stopped
+2022-04-26 15:48:40,864 Thread-6        DEBUG    mbserv         :52       echec thread à l'adresse 192.168.2.1
+2022-04-26 15:48:40,869 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:48:40] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:48:40,876 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:48:40] "GET / HTTP/1.1" 200 -
+2022-04-26 15:48:40,899 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:48:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:49:13,703 Thread-5        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:13] "[32mPOST /16/delete HTTP/1.1[0m" 302 -
+2022-04-26 15:49:13,707 Thread-5        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:13] "GET / HTTP/1.1" 200 -
+2022-04-26 15:49:13,719 Thread-5        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:49:18,616 Thread-7        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:18] "GET /create HTTP/1.1" 200 -
+2022-04-26 15:49:18,633 Thread-7        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 15:49:23,630 Thread-10       DEBUG    mbserv         :47       Demarrage du thread à l'adresse 192.168.2.1
+2022-04-26 15:49:23,630 Thread-10       DEBUG    payload        :125      [65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]
+2022-04-26 15:49:23,638 Thread-8        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:23] "[32mPOST /create HTTP/1.1[0m" 302 -
+2022-04-26 15:49:23,642 Thread-8        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:23] "GET / HTTP/1.1" 200 -
+2022-04-26 15:49:23,661 Thread-8        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 15:49:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 16:01:11,854 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/serv.py', reloading
+2022-04-26 16:01:11,876 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 16:01:19,251 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:01:19] "[35m[1mPOST /17/delete HTTP/1.1[0m" 500 -
+2022-04-26 16:01:19,279 Thread-4        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:01:19] "GET /17/delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-26 16:01:19,280 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:01:19] "GET /17/delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-26 16:01:19,290 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:01:19] "GET /17/delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-26 16:01:19,300 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:01:19] "[36mGET /17/delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 16:03:50,692 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/serv.py', reloading
+2022-04-26 16:03:50,719 MainThread      INFO     _internal      :224       * Restarting with stat
+2022-04-26 16:03:52,601 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:03:52] "[32mPOST /17/delete HTTP/1.1[0m" 302 -
+2022-04-26 16:03:52,612 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:03:52] "GET / HTTP/1.1" 200 -
+2022-04-26 16:03:52,624 Thread-3        INFO     _internal      :224      127.0.0.1 - - [26/Apr/2022 16:03:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-04-26 16:14:20,367 MainThread      INFO     _internal      :224       * Detected change in '/home/alexis/interweb/serv.py', reloading
+2022-04-26 16:14:20,407 MainThread      INFO     _internal      :224       * Restarting with stat

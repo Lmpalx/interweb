@@ -2,10 +2,16 @@ from flask import Blueprint, flash, g, redirect, render_template, request, url_f
 from werkzeug.exceptions import abort
 from interweb.auth import login_required
 from interweb.db import get_db
+from interweb.mbserv import Mbserv
+from . import const
+
+TH_SERV={}
+
 
 bp= Blueprint("serv",__name__)
 @bp.route("/")
 def index():
+
     db = get_db()
     serv = db.execute(
         "SELECT s.id, adresse, port, size, created, username, author_id"
@@ -46,9 +52,14 @@ def create():
         if error is not None:
             flash(error)
         else:
-            db = get_db()
-            db.execute( "INSERT INTO serv (author_id, adresse, port, size) VALUES (?, ?, ?, ?)",(g.user["id"],adress,port,size))
-            db.commit()
+            TH_SERV[adress]= Mbserv(adress,const.INTERFACE,port,size)
+            TH_SERV[adress].start()
+
+            if TH_SERV[adress].running:
+                db = get_db()
+                db.execute( "INSERT INTO serv (author_id, adresse, port, size) VALUES (?, ?, ?, ?)",(g.user["id"],adress,port,size))
+                db.commit()
+                
             return redirect(url_for("serv.index"))
     return render_template("serv/create.html")
 
@@ -72,7 +83,8 @@ def get_post(id, check_author=True):
 @login_required
 
 def delete(id):
-    get_post(id)
+    serv = get_post(id)
+    #TH_SERV[serv['adresse']].raise_exception()
     db = get_db()
     db.execute('DELETE FROM serv WHERE id = ?', (id,))
     db.commit()
